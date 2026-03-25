@@ -161,12 +161,12 @@ jupyter notebook Problem2_NameGeneration.ipynb
 
 ### Problem 1
 - [x] Source code (well-documented notebook)
-- [x] Cleaned corpus file (`cleaned_corpus.txt`)
+- [x] Cleaned corpus file (`corpus.txt`)
 - [x] Visualizations (word cloud, t-SNE, PCA, heatmap)
-- [x] Report (in `combined_report.pdf`)
+- [x] Report (in `report.pdf`)
 
 ### Problem 2
 - [x] Source code for all three models
 - [x] Generated name samples (printed in notebook + report)
 - [x] Evaluation scripts (diversity & novelty computation)
-- [x] Report (in `combined_report.pdf`)
+- [x] Report (in `eport.pdf`)
