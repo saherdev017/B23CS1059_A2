@@ -141,7 +141,7 @@ wordcloud
 ### Problem 1
 
 ```bash
-jupyter notebook Problem1_Word2Vec.ipynb
+jupyter notebook B23CS1059_A2_prob1.ipynb
 # Or run cells sequentially — fetches data from IIT Jodhpur URLs,
 # trains both models, runs semantic analysis and generates all plots.
 ```
@@ -149,7 +149,7 @@ jupyter notebook Problem1_Word2Vec.ipynb
 ### Problem 2
 
 ```bash
-jupyter notebook Problem2_NameGeneration.ipynb
+jupyter notebook B23CS1059_A2_prob2.ipynb
 # Generates dataset, trains all three models (Vanilla RNN, BLSTM, Attention),
 # evaluates diversity/novelty, and produces loss comparison plot.
 ```
