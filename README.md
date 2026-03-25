@@ -11,12 +11,13 @@
 
 ```
 .
+├── B23CS1059_A2
+   ├── report.pdf           # Final report (Problem 1 + Problem 2)
+   ├── corpus.txt                    # Cleaned corpus (Problem 1 output)
 ├── README.md
-├── combined_report.pdf          # Final report (Problem 1 + Problem 2)
-├── Problem1_Word2Vec.ipynb      # Notebook for Problem 1
-├── Problem2_NameGeneration.ipynb # Notebook for Problem 2
-├── corpus.txt           # Cleaned corpus (Problem 1 output)
-├── TrainingNames.txt            # 1000 generated Indian names (Problem 2 input)
+├── B23CS1059_A2_prob1.ipynb      # Notebook for Problem 1 Word2Vec
+├── B23CS1059_A2_prob2.ipynb      # Notebook for Problem 2 NameGeneration
+├── TrainingNames.txt              # 1000 generated Indian names (Problem 2 input)
 ```
 
 ---
