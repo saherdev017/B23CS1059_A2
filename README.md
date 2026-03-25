@@ -1,4 +1,3 @@
-
 # CSL 7640: Natural Language Understanding — Assignment 2
 
 **Name:** Saher Dev
@@ -12,13 +11,27 @@
 ```
 .
 ├── B23CS1059_A2
-   ├── report.pdf           # Final report (Problem 1 + Problem 2)
-   ├── corpus.txt                    # Cleaned corpus (Problem 1 output)
+│   ├── report.pdf                    # Final report (Problem 1 + Problem 2)
+│   ├── corpus.txt                    # Cleaned corpus (Problem 1 output)
+├── plots/                            # All generated visualizations 
+    ├── wordcloud.png                # Word cloud visualization
+    ├── tsne-skip.png                # t-SNE plot (Skip-gram)
+    ├── tsne.png                     # t-SNE plot (CBOW)
+    ├── pca-skip.png                 # PCA plot (Skip-gram)
+    ├── cos-skip.png                 # Cosine similarity heatmap
+    ├── model-hyper.png              # Hyperparameter experiment bar 
+    └── loss_plot.png 
 ├── README.md
-├── B23CS1059_A2_prob1.ipynb      # Notebook for Problem 1 Word2Vec
-├── B23CS1059_A2_prob2.ipynb      # Notebook for Problem 2 NameGeneration
-├── TrainingNames.txt              # 1000 generated Indian names (Problem 2 input)
+├── B23CS1059_A2_prob1.ipynb          # Notebook for Problem 1 Word2Vec (primary)
+├── B23CS1059_A2_prob2.ipynb          # Notebook for Problem 2 NameGeneration (primary)
+├── B23CS1059_A2_prob1.py             # .py export of Problem 1 notebook
+├── B23CS1059_A2_prob2.py             # .py export of Problem 2 notebook
+├── TrainingNames.txt                 # 1000 generated Indian names (Problem 2 input)
 ```
+
+> **Note on `.py` files:** The Jupyter notebooks (`.ipynb`) are the **primary source files** for this assignment and are intended to be run as notebooks. The `.py` files are plain Python exports of the same notebooks, included solely to satisfy assignment submission requirements. All inline outputs, visualizations, and markdown explanations are best viewed in the notebook format. If there are any discrepancies between the `.py` and `.ipynb` files, the notebook takes precedence.
+
+> **Note on `plots/` folder:** All visualizations generated during training and evaluation — including the word cloud, t-SNE projections, PCA plot, cosine similarity heatmap, and loss comparison curves — have been collected and saved in the `plots/` directory for convenience. These are also reproducible by running the notebooks end-to-end.
 
 ---
 
@@ -163,11 +176,11 @@ jupyter notebook B23CS1059_A2_prob2.ipynb
 ### Problem 1
 - [x] Source code (well-documented notebook)
 - [x] Cleaned corpus file (`corpus.txt`)
-- [x] Visualizations (word cloud, t-SNE, PCA, heatmap)
+- [x] Visualizations saved in `plots/`
 - [x] Report (in `report.pdf`)
 
 ### Problem 2
 - [x] Source code for all three models
 - [x] Generated name samples (printed in notebook + report)
 - [x] Evaluation scripts (diversity & novelty computation)
-- [x] Report (in `eport.pdf`)
+- [x] Report (in `report.pdf`)
